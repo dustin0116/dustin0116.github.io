@@ -3,7 +3,7 @@
     font-size:14px;
     font-family: Barlow;
   }
-  .left, .right {
+  .card, .right {
     float:none;
     padding: 0px;
     width:100%;
