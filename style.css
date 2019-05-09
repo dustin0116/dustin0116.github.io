@@ -1,7 +1,6 @@
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
-    font-family: Barlow;
   }
   .card, .right {
     float:none;
