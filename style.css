@@ -5,6 +5,7 @@
   }
   .left, .right {
     float:none;
+    padding: 0px;
     width:100%;
   }
 }
