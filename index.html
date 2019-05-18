@@ -7,12 +7,19 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+  .br-on-mobile{display: none;}
+  @media screen and (max-width: 900px) {
+    .br-on-mobile {display: inherit;}
+    p.education{margin-left: 20%}
+  }
+  </style>
 </head>
 
 <body>
   <div class="card">
     <img src="/images/profile.jpg" alt="Dustin" style="width:100%">
-    <h1>Dustin (Yen Dah) Hsiang</h1>
+    <h1>Dustin <br class="br-on-mobile">(Yen Dah)<br class="br-on-mobile"> Hsiang</h1>
     <p class="title">Computer Science Undergraduate<br>Senior</p>
     <p>University of San Francisco</p>
     <div style="margin: 24px 0;">
@@ -31,10 +38,12 @@
       technology at a young age has made me passionate towards app innovations.
     </p>
     <h1>Education</h1>
-    <p>San Francisco State University (Fall 2015 - Spring 2017)<br>
-      — Computer Science, B.S.
+    <p class="education">San Francisco State University<br class="br-on-mobile">
+      (Fall 2015 - Spring 2017)<br>
+      — Computer Science
     </p>
-    <p>University of San Francisco (Fall 2017 - Present)<br>
+    <p class="education">University of San Francisco<br class="br-on-mobile">
+      (Fall 2017 - Present)<br>
       — Computer Science, B.S.
     </p>
     <h1>Projects</h1>
