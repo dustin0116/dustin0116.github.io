@@ -8,7 +8,7 @@ body {font-family: 'Rubik', sans-serif;}
   text-align: justify;
 }
 .card {
-  padding:20px;
+  margin-top: 1.5em;
   margin-left: 3em;
   float:left;
   width: 25%;
