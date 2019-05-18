@@ -38,6 +38,8 @@ button:hover, a:hover {opacity: 0.7;}
 
 @media screen and (max-width: 900px) {
   body {font-size: 18px;}
+  p{margin: 5%;}
+  h1 {text-align: center;}
   .card {
     margin-top: 2em;
     padding: 0px;
@@ -48,9 +50,7 @@ button:hover, a:hover {opacity: 0.7;}
   }
   .right {
     padding: 0px;
-    margin: 5%;
     float: none;
     width:100%;
   }
-  h1 {text-align: center;}
 }
