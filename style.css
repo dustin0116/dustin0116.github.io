@@ -48,10 +48,9 @@ button:hover, a:hover {opacity: 0.7;}
   }
   .right {
     padding: 0px;
-    margin: 5%;
+    margin: 0%;
     float:none;
-    width:90%;
+    width:100%;
   }
   h1 {text-align: center;}
-  img.project{width: 80%; margin-left: 10%; margin-bottom: 5%;}
 }
