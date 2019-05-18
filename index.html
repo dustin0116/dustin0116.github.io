@@ -9,22 +9,32 @@
   <link rel="shortcut icon" href="images/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
-  img.project {width: 25%; margin-right: 1em; margin-top: 1em;}
+  img.project {width: 25%; margin-top: 1em;}
+  div.projects {margin-top: 10%; margin: 3em;}
+  div.projects img {display: block; float: left; margin-right: 5%;}
+  .clear {
+    clear: both;
+    height: 0;
+    width: 0;
+    font-size: 1px;
+    line-height: 0;
+  }
   .br-on-mobile{display: none;}
+  .name{font-size: 25px;}
   div.scroll{
     margin-top: 11%;
-    margin-left: 40%;
+    width: 100%;
+    text-align: center;
   }
-  div.projects {
-    margin-top: 10%;
-    margin-left: 2em;
-  }
+
   @media screen and (max-width: 900px) {
     .br-on-mobile {display: inherit;}
     .no_show_on_mobile{display: none;}
+    .name{text-align: center;}
     img.project {width: 90%;}
     p.education{text-align: justify;}
-    div.projects {margin-top:-2.5em;}
+    div.projects {text-align: center; margin: 0;}
+    div.projects img {display: inline; float: none; margin-right: 0;}
   }
   </style>
 </head>
@@ -32,7 +42,7 @@
 <body>
   <div class="card">
     <img src="/images/profile.jpg" alt="Dustin" style="width:100%">
-    <h2 style="font-size: 25px;">Dustin <br class="br-on-mobile">(Yen Dah)<br class="br-on-mobile"> Hsiang</h2>
+    <h2 class="name">Dustin <br class="br-on-mobile">(Yen Dah) <br class="br-on-mobile">Hsiang</h2>
     <p class="title">Computer Science Undergraduate<br>Senior</p>
     <p style="font-size: 18px;">University of San Francisco</p>
     <div style="margin: 24px 0;">
@@ -86,10 +96,14 @@
     <a href="/projects/sfincidents.html">
       <img class="project" src="/images/sfincidents/sfincidents.jpg" alt="San Francisco Incidents 2003 vs. 2018">
     </a>
+    <div class="clear"></div>
   </div>
 
-  <footer>
-    <p><i>Created by Yen Dah Hsiang (2017 - )</i></p>
-  </footer>
+  <div class="footer">
+    <footer>
+      <p><i>Created by Yen Dah Hsiang (2017 - )</i></p>
+    </footer>
+  </div>
+
 </body>
 </html>

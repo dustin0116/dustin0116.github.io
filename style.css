@@ -3,7 +3,7 @@
 body {font-family: 'Rubik', sans-serif;}
 .right {
   margin-top: 3em;
-  margin-left: 56%;
+  padding-left: 56%;
   width:40%;
 }
 .card {
@@ -15,7 +15,7 @@ body {font-family: 'Rubik', sans-serif;}
 }
 .title {color: grey; font-size: 18px;}
 button:hover, a:hover {opacity: 0.7;}
-footer{
+div.footer{
   margin-left: 40%;
   margin-top: 8%;
 }
@@ -33,16 +33,17 @@ a.link {
 @media screen and (max-width: 900px) {
   body {font-size: 18px;}
   h1 {text-align: center;}
+  div.footer{margin-left: 0; width: 100%; text-align: center;}
   .card {
     margin-top: 2em;
     float:none;
-    width:70%;
-    margin-left: 15%;
+    width:80%;
+    margin-left: 10%;
     margin-bottom: 20%;
   }
   .right {
     margin-top: 0;
-    margin-left: 0;
+    padding-left: 0;
     padding: 5%;
     float: none;
     width:90%;
