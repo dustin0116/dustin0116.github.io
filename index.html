@@ -9,11 +9,22 @@
   <link rel="shortcut icon" href="images/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
+  img.project {width: 25%; margin-right: 1em; margin-top: 1em;}
   .br-on-mobile{display: none;}
+  div.scroll{
+    margin-top: 11%;
+    margin-left: 40%;
+  }
+  div.projects {
+    margin-top: 10%;
+    margin-left: 2em;
+  }
   @media screen and (max-width: 900px) {
     .br-on-mobile {display: inherit;}
+    .no_show_on_mobile{display: none;}
+    img.project {width: 90%;}
     p.education{text-align: justify;}
-    img.project {width: 80%; margin-left: 10%; margin-bottom: 5%;}
+    div.projects {margin-top:-2.5em;}
   }
   </style>
 </head>
@@ -58,6 +69,16 @@
       <i class="fal fa-laptop-code" ></i> — Computer Science<br>
       <i class="fal fa-scroll"></i> - Dean's List (Fall 2015, Spring 2016)
     </p>
+  </div>
+
+  <div class="scroll">
+    <p class="no_show_on_mobile"><br>
+      <i>Scroll down for projects &nbsp;</i>
+      <i class="fal fa-chevron-down"></i>
+    </p>
+  </div>
+
+  <div class="projects">
     <h1>Projects <i class="fal fa-project-diagram"></i></h1>
     <a href="/projects/fairshare.html">
       <img class="project" src="/images/fairshare/fairshare.jpg" alt="FairShare">
@@ -66,5 +87,9 @@
       <img class="project" src="/images/sfincidents/sfincidents.jpg" alt="San Francisco Incidents 2003 vs. 2018">
     </a>
   </div>
+
+  <footer>
+    <p><i>Created by Yen Dah Hsiang (2017 - )</i></p>
+  </footer>
 </body>
 </html>
