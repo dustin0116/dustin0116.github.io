@@ -34,7 +34,7 @@ a.link {
   h1 {text-align: center;}
   h3{text-align: center;}
   .br-on-mobile {display: inherit;}
-  div.footer{margin-left: 0; width: 100%; font-size: 14px;}
+  div.footer{margin-left: 0; width: 100%; font-size: 12px;}
   .card {
     margin-top: 2em;
     float:none;
