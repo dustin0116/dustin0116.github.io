@@ -38,7 +38,7 @@ a.link {
 .br-on-mobile{display: none;}
 
 div.screenshots{float: left; width: 50%; margin-left: 3em; margin-top: 3em;}
-
+img.logo{width: 40px; height: 40px;}
 
 /* Mobile version*/
 @media screen and (max-width: 900px) {
