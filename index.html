@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="images/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
-  div.projects {margin-top: 8em; margin-left: 3em; margin-right: 3em;}
+  div.projectsection{margin-left: 3em; margin-right: 3em;}
   img.project {
     width: 250px;
     height: 250px;
@@ -33,91 +33,91 @@
     div.projects{margin-top: 15%;}
     img.project{margin-right: 2%;}
   }
-
   @media screen and (max-width: 900px) {
     .no_show_on_mobile{display: none;}
     .name{text-align: center;}
-    img.project {width: 150px; height: 150px; margin-right: 10px;}
-    p.education{text-align: center;}
-    div.projects {text-align: center; margin: 0;}
+    img.project {width: 150px; height: 150px;}
+    p.education {text-align: center;}
+    div.projects {margin: 0; padding-left: 1em;}
+    div.projectsection{margin-left: 0; margin-right: 0;}
   }
   </style>
 </head>
 
 <body>
-  <div class="card">
-    <img src="/images/profile.jpg" alt="Dustin" style="width:100%">
-    <h2 class="name">Dustin <br class="br-on-mobile">(Yen Dah) <br class="br-on-mobile">Hsiang</h2>
-    <p class="title">Computer Science Undergraduate<br>Senior</p>
-    <p style="font-size: 18px;">University of San Francisco</p>
-    <div style="margin: 24px 0;">
-      <a class="icons" href="https://www.github.com/dustin0116" target="_blank"><i class="fab fa-github-alt fa-2x" style="color: #6E5494;"></i>&nbsp;</a>
-      <a class="icons" href="https://www.linkedin.com/in/dustinhsiang0116" target="_blank"><i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>&nbsp;</a>
-      <a class="icons" href="https://www.facebook.com/dustinq4" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: #3C5A99;"></i>&nbsp;</a>
-      <a class="icons" href="https://www.instagram.com/dhsiang8" target="_blank"><i class ="fab fa-instagram fa-2x" style="color: #E1306C;"></i>&nbsp;</a>
+  <div id="wrapper">
+    <div id="content">
+      <div class="card">
+        <img src="/images/profile.jpg" alt="Dustin" style="width:100%">
+        <h2 class="name">Dustin <br class="br-on-mobile">(Yen Dah) <br class="br-on-mobile">Hsiang</h2>
+        <p class="title">Computer Science Undergraduate<br>Senior</p>
+        <p style="font-size: 18px;">University of San Francisco</p>
+        <div style="margin: 24px 0;">
+          <a class="icons" href="https://www.github.com/dustin0116" target="_blank"><i class="fab fa-github-alt fa-2x" style="color: #6E5494;"></i>&nbsp;</a>
+          <a class="icons" href="https://www.linkedin.com/in/dustinhsiang0116" target="_blank"><i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>&nbsp;</a>
+          <a class="icons" href="https://www.facebook.com/dustinq4" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: #3C5A99;"></i>&nbsp;</a>
+          <a class="icons" href="https://www.instagram.com/dhsiang8" target="_blank"><i class ="fab fa-instagram fa-2x" style="color: #E1306C;"></i>&nbsp;</a>
+        </div>
+        <p style="font-size: 18px;">Contact Me</p><a href="mailto:dustin0116@gmail.com" style="color: black;"><i class="fal fa-envelope fa-2x" style="margin-top: -5%;"></i></a>
+      </div>
+      <div class="right">
+        <h1>About Me <i class="fal fa-file-user"></i></h1>
+        <p style="margin-bottom: 10%;">I am an aspiring app developer born in Taiwan
+          who currently attends the University of San Francisco as a senior in Computer
+          Science. I am passionate about new technology and app innovations that can
+          bring positive impact to our lives.
+          <br><br>
+          So far I've made a bill and tip splitting calculator app on the App Store, built a website
+          featuring infographics of crimes in San Franciso, and am familiar with Java,
+          Python, C, Swift, and most recently, web development in HTML.
+          I've also worked with JavaScript along with the D3.js library to
+          create data visualizations.
+          <br><br>
+          Outside of the tech world and computer science, I am a sneakerhead and
+          an avid follower of NBA Basketball.
+        </p>
+        <h1>Education <i class="fal fa-university"></i></h1>
+        <p class="education">University of San Francisco<br class="br-on-mobile">
+          (Fall 2017 — expected Spring 2020)
+        </p>
+        <ul>
+          <li><i class="fal fa-laptop-code"></i> Computer Science, B.S.</li>
+        </ul>
+        <p class="education">San Francisco State University<br class="br-on-mobile">
+          (Fall 2015 — Spring 2017)
+        </p>
+        <ul>
+          <li><i class="fal fa-laptop-code"></i> Computer Science</li>
+          <li><i class="fal fa-scroll"></i> Dean's List (Fall 2015, Spring 2016)</li>
+        </ul>
+      </div>
+      <div class="scroll">
+        <p class="no_show_on_mobile"><br>
+          <i>Scroll down for projects &nbsp;</i>
+          <i class="fal fa-chevron-down"></i>
+        </p>
+      </div>
+      <div class="projectsection">
+        <h1>Projects <i class="fal fa-project-diagram"></i></h1>
+        <ul>
+          <li style="color: grey;"><i><i class="fal fa-hand-pointer"></i> on them to see detailed information.</i>
+          </li>
+        </ul>
+        <div class="projects">
+          <a href="/projects/fairshare.html">
+            <img class="project" src="/images/fairshare/fairshare.jpg" alt="FairShare">
+          </a>
+          <a href="/projects/sfincidents.html">
+            <img class="project" src="/images/sfincidents/sfincidents.jpg" alt="SF Incidents Project">
+          </a>
+          <a href="/projects/unfinished.html">
+            <img class="project" src="/images/sfnumofalarms/sfnumofalarms.png" alt="SF Fire Department Project">
+          </a>
+          <div class="clear"></div>
+        </div>
+      </div>
     </div>
-    <p style="font-size: 18px;">Contact Me</p><a href="mailto:dustin0116@gmail.com" style="color: black;"><i class="fal fa-envelope fa-2x" style="margin-top: -5%;"></i></a>
+    <footer id="footer">Created by Yen Dah Hsiang | GitHub Pages 2019</footer>
   </div>
-
-  <div class="right">
-    <h1>About Me <i class="fal fa-file-user"></i></h1>
-    <p style="margin-bottom: 10%;">I am an aspiring app developer born in Taiwan
-      who currently attends the University of San Francisco as a senior in Computer
-      Science. I am passionate about new technology and app innovations that can
-      bring positive impact to our lives.
-      <br><br>
-      I have so far made a bill and tip splitting calculator app on the App Store, built a website
-      featuring infographics of crimes in San Franciso, and am familiar with Java,
-      Python, C, Swift, and most recently, web development in HTML.
-      I've also worked with JavaScript along with the D3.js library to
-      create data visualizations.
-      <br><br>
-      Outside of the tech world and computer science, I am a sneakerhead and
-      an avid follower of NBA Basketball.
-    </p>
-    <h1>Education <i class="fal fa-university"></i></h1>
-    <p class="education">University of San Francisco<br class="br-on-mobile">
-      (Fall 2017 — expected Spring 2020)
-      <ul>
-        <li><i class="fal fa-laptop-code"></i> Computer Science, B.S.</li>
-      </ul>
-    </p>
-    <p class="education">San Francisco State University<br class="br-on-mobile">
-      (Fall 2015 — Spring 2017)
-      <ul>
-        <li><i class="fal fa-laptop-code"></i> Computer Science</li>
-        <li><i class="fal fa-scroll"></i> Dean's List (Fall 2015, Spring 2016)</li>
-      </ul>
-    </p>
-  </div>
-
-  <div class="scroll">
-    <p class="no_show_on_mobile"><br>
-      <i>Scroll down for projects &nbsp;</i>
-      <i class="fal fa-chevron-down"></i>
-    </p>
-  </div>
-
-  <div class="projects">
-    <h1>Projects <i class="fal fa-project-diagram"></i></h1>
-    <ul><li style="color: grey;"><i><i class="fal fa-hand-pointer"></i> on them to see detailed information.</i></li></ul>
-    <a href="/projects/fairshare.html">
-      <img class="project" src="/images/fairshare/fairshare.jpg" alt="FairShare">
-    </a>
-    <a href="/projects/sfincidents.html">
-      <img class="project" src="/images/sfincidents/sfincidents.jpg" alt="SF Incidents Project">
-    </a>
-    <a href="/projects/unfinished.html">
-      <img class="project" src="/images/sfnumofalarms/sfnumofalarms.png" title="Snapshot of Fire Department in San Francisco 2018" alt="SF Fire Department Project">
-    </a>
-    <div class="clear"></div>
-  </div>
-
-  <div class="footer">
-    <footer>
-      <p>Created by Yen Dah Hsiang | GitHub Pages 2019</p>
-    </footer>
-  </div>
-
 </body>
 </html>

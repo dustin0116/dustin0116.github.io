@@ -9,15 +9,9 @@
   <link rel="shortcut icon" href="images/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
-  .right {margin-top: 0;}
-  div.screenshots{float: left; width: 50%; margin-top: 2em;}
-  img.screenshot {width: 40%; padding-left: 2em;}
-  div.appstoredownload{width: 50%;}
-  div.appstoredownload img {width: 80%;}
-  div.footer{margin-top: 33px;}
-  @media only screen and (min-width : 1824px) {
-    div.footer{margin-top: 20%;}
-  }
+  img.screenshot {width: 40%; margin-right: 2em;}
+  img.appstoredownload{width: 39%;}
+
   @media screen and (max-width: 900px) {
     img.screenshot {width: 70%; padding-left: 15%; margin-bottom: 10%;}
     div.appstoredownload {width: 100%; text-align: center;}
@@ -26,38 +20,37 @@
   }
   </style>
 </head>
+
 <body>
-  <div>
-    <a id="backbutton" href="../index.html" style="color: black"><i class="far fa-arrow-left fa-2x"></i></a>
-  </div>
-  <div class="screenshots">
-    <img class="screenshot" src="../images/fairshare/fairshare1.jpg" alt="screenshot1">
-    <img class="screenshot" src="../images/fairshare/fairshare2.jpg" alt="screenshot2">
-  </div>
-
-  <div class="right">
-    <h1>FairShare - easy way to split bills fairly</h1>
-    <h3>Description <i class="fal fa-file-alt"></i></h3>
-    <p>FairShare makes it easy to know how much you pay when you go out and eat with your friends. Simply enter the prices, choose what's yours, and it calculates for you.</p>
-    <p>This is an app that I created during the Summer of 2017 while attending the Make School Summer Academy, a program which helped me develop Swift coding and app creation skills. Know more about Make School <a class="link" href= "https://www.makeschool.com" target="_blank"><u>here</u></a>.</p>
-    <p>The development process of this app/project is very important to me. It helped me understand coding logics better than any
-      experience I have had. Before this project, I struggled with logics and algorithms and was not so sure if computer
-      programming was really for me. Thanks to the assistance of Make School's Summer Academy, I became familiar with
-      debugging and problem solving. Ultimately, I've become way more comfortable with writing codes and creating apps.
-    </p>
-    <h3>Programming Language(s) Used <i class="fal fa-code lg"></i></h3>
-    <ul>
-      <li>Swift <i class="fas fa-dove" style="color: #fd9426;"></i><br><br></li>
-    </ul>
-    <div class="appstoredownload">
-      <a href="https://itunes.apple.com/us/app/fairshare-split-bills-fairly/id1269333521?mt=8" target="_blank"><img src="../images/fairshare/availableonappstore.png" alt="appstoredownload"></a>
+  <div id="wrapper">
+    <div id="content">
+      <a id="backbutton" href="../index.html"><i class="fal fa-long-arrow-left fa-lg"></i> Return</a>
+      <div class="screenshots">
+        <img class="screenshot" src="../images/fairshare/fairshare1.jpg" alt="screenshot1">
+        <img class="screenshot" src="../images/fairshare/fairshare2.jpg" alt="screenshot2">
+      </div>
+      <div class="right">
+        <h1>FairShare - easy way to split bills fairly</h1>
+        <h3>Description <i class="fal fa-file-alt"></i></h3>
+        <p>
+          FairShare makes it easy to know how much you pay when you go out and eat with your friends. Simply enter the prices, choose what's yours, and it calculates for you.
+        </p>
+        <p>
+          This is an app that I created during the Summer of 2017 while attending the Make School Summer Academy, a program which helped me develop Swift coding and app creation skills. Know more about Make School <a class="link" href= "https://www.makeschool.com" target="_blank"><u>here</u></a>.
+        </p>
+        <p>The development process of this app/project is very important to me. It helped me understand coding logics better than any
+          experience I have had. Before this project, I struggled with logics and algorithms and was not so sure if computer
+          programming was really for me. Thanks to the assistance of Make School's Summer Academy, I became familiar with
+          debugging and problem solving. Ultimately, I've become way more comfortable with writing codes and creating apps.
+        </p>
+        <h3>Programming Language(s) Used <i class="fal fa-code lg"></i></h3>
+        <ul>
+          <li>Swift <i class="fas fa-dove" style="color: #fd9426;"></i><br><br></li>
+        </ul>
+        <a href="https://itunes.apple.com/us/app/fairshare-split-bills-fairly/id1269333521?mt=8" target="_blank"><img class="appstoredownload" src="../images/fairshare/availableonappstore.png" alt="appstoredownload"></a>
+      </div>
     </div>
-  </div>
-
-  <div class="footer">
-    <footer>
-      <p>Created by Yen Dah Hsiang | GitHub Pages 2019</p>
-    </footer>
+    <footer id="footer">Created by Yen Dah Hsiang | GitHub Pages 2019</footer>
   </div>
 </body>
 </html>
