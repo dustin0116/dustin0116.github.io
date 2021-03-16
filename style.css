@@ -17,6 +17,7 @@ html, body {font-family: 'Rubik', sans-serif; margin: 0; height: 100%}
   width: 100%;
   color: grey;
   text-align: center;
+  padding-bottom: 2em;
 }
 
 #backbutton {float: left; color: black; position: absolute; padding: 1em;}
@@ -56,6 +57,7 @@ img.logo{width: 40px; height: 40px;}
   h1 {text-align: center;}
   h3{text-align: center;}
   .br-on-mobile {display: inherit;}
+  .list-on-mobile {text-align: center;}
   div.footer{margin-left: 0; width: 100%; font-size: 12px;}
   .card {
     padding-left: 2em;
