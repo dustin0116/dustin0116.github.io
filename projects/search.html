@@ -24,10 +24,7 @@ img.screenshot {width: 80%;}
   <div id="content">
     <a id="backbutton" href="../index.html"><i class="fal fa-long-arrow-left fa-lg"></i> Return</a>
     <div class="screenshots">
-      <img class="screenshot" src="../images/sfincidents/screenshot1.png" alt="screenshot1">
-    </div>
-    <div class="screenshots">
-      <img class="screenshot" src="../images/sfincidents/screenshot2.png " alt="screenshot2">
+      <img class="screenshot" src="../images/search/s1.png" alt="screenshot1">
     </div>
 
     <div class="right">
@@ -35,29 +32,30 @@ img.screenshot {width: 80%;}
       <h3>Description <i class="fal fa-file-alt"></i></h3>
       </p>
       <p>
-        This is a search engine that is built with a multithreaded web crawler for the backend and embedded Jetty with servlets for the web interface.
-      </p>
-      
-      <p>The choropleth map shows the number of offensive incidents in San Francisco
-        by police districts. The color gradient for each district reflects the number
-        of offensive incidents there and the darker the color, the higher the incident
-        count (yellow meaning fewer and red meaning more).
+        This is a search engine that is built with a multithreaded web crawler for the
+        backend and embedded Jetty with servlets for the frontend.
       </p>
       <p>
-        The two buttons, 2003 and 2018, on top of the map allow the user to compare
-        between the first year such police reports were made available and the most
-        recent complete year.
+        Users would have to input different URLs into the search engine. Then, they're able to
+        search the word they type in with the option of an exact search or partial search.
+        The searched word will be added to a stored history index and the user will also be able to view
+        the whole index as well as the locations of each index in the websites searched.
       </p>
       <p>
-        The bar chart below will update with data from the specific district selected
-        by the user, providing detailed information on specific offensive incident types
-        including: Assault, Drug Related, Sex Offense, and Weapon Related.
+        This search engine utilizes multithreading efficiently. It boosts the performace by at least
+        80% compared to single-threading.
       </p>
       <h3>Skill(s) Used <i class="fal fa-code fa-lg"></i></h3>
       <ul>
-        <li>Java <i class="fab fa-java" style="color: darkslateblue;"></i><br></li>
-        <li>HTML <i class="fas fa-file-code"></i><br><br></li>
+        <li>Java <i class="fab fa-java" style="color: darkslateblue;"></i></li>
+        <li>HTML <i class="fas fa-file-code"></i></li>
+        <li>Jetty <i class="fas fa-server"></i></li>
       </ul>
+      <div class="link" style="margin-bottom: 1em;">
+        <a href="https://github.com/dustin0116/SearchEngine" target="_blank" style="color: #4B88E2;">
+          Link to GitHub Repository  <i class="fa fa-chevron-right"></i>
+        </a>
+      </div>
     </div>
   </div>
   <footer id="footer">Created by Yen Dah Hsiang</footer>
