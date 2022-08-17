@@ -60,17 +60,16 @@ img.logo{width: 40px; height: 40px;}
   .list-on-mobile {text-align: left;}
   div.footer{margin-left: 0; width: 100%; font-size: 12px;}
   .card {
-    padding-left: 2em;
+    padding-left: 10.3%;
     float:none;
     width:80%;
     margin-bottom: 20%;
   }
   .right {
-    margin-top: 0;
-    padding-left: 0;
-    padding: 5%;
+    margin-top: -20%;
+    padding: 10%;
     float: none;
-    width:90%;
+    width:80%;
   }
 }
 
