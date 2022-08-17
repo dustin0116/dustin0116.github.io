@@ -57,7 +57,7 @@ img.logo{width: 40px; height: 40px;}
   h1 {text-align: center;}
   h3{text-align: center;}
   .br-on-mobile {display: inherit;}
-  .list-on-mobile {text-align: center;}
+  .list-on-mobile {text-align: left;}
   div.footer{margin-left: 0; width: 100%; font-size: 12px;}
   .card {
     padding-left: 2em;
